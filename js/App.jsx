@@ -1,19 +1,15 @@
 // @flow
 
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from './Home';
-
-const FourOhFour = () => <h1>404</h1>; // placeholder
+import Header from "./Header";
 
 const App = () =>
-  <BrowserRouter>
     <div className="app">
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route component={FourOhFour} />
-      </Switch>
+    <Header />
+    <div className="app-body">
+    Hello
     </div>
-  </BrowserRouter>;
+    </div>;
+
 
 export default App;
