@@ -2,15 +2,21 @@
 
 import React from "react";
 import { render } from "react-dom";
-import App from './App';
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
 const renderApp = () => {
-  render(<App />, document.getElementById('app'));
-}
-renderApp()
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    document.getElementById("app")
+  );
+};
+renderApp();
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
+  module.hot.accept("./App", () => {
     renderApp();
   });
 }

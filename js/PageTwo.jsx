@@ -4,7 +4,7 @@ import React from 'react';
 
 const PageTwo = () =>
   <div>
-    Hi, I'm page 2
+    Hi, this is page 2
   </div>
 
-export default PageTwo
+export default PageTwo;
