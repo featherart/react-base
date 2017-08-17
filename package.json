@@ -75,7 +75,7 @@
   "version": "1.0.0",
   "description": "Basic react starter project",
   "main": "server.js",
-  "repository": "",
+  "repository": "https://github.com/featherart/react-base/",
   "author": "Feather Knee <featherknee@gmail.com>",
   "license": "MIT"
 }

@@ -445,14 +445,20 @@ html {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 .top-navbar {
   background: red;
   height: 60px;
+  padding: 30px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .top-navbar.active {
   background: yellow;
+  color: #333;
 }

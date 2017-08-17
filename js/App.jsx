@@ -10,8 +10,8 @@ const App = () =>
   <div className="wrapper">
     <Navbar />
     <div className="app">
-      <Route key={1} exact path="/" component={Home} />
-      <Route key={2} path="/two" component={PageTwo} />
+      <Route path="/" component={Home} />
+      <Route path="/two" component={PageTwo} />
     </div>
   </div>;
 
