@@ -72,9 +72,9 @@
     "webpack-dev-server": "^2.7.1"
   },
   "name": "react-base",
+  "homepage": ".",
   "version": "1.0.0",
   "description": "Basic react starter project",
-  "main": "server.js",
   "repository": "https://github.com/featherart/react-base/",
   "author": "Feather Knee <featherknee@gmail.com>",
   "license": "MIT"
